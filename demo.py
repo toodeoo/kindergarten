@@ -1,0 +1,5 @@
+array = input().split()
+m = int(array[0])
+n = int(array[1])
+s = int((m + n - 1) * (n - m) / 2)
+print(s)
